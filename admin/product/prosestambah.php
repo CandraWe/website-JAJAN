@@ -41,5 +41,3 @@
     // untuk size ketika ingin membatasi file yang dikirim
 
 
-    // 
-?>
