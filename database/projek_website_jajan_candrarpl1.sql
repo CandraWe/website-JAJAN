@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 07 Nov 2024 pada 02.40
--- Versi server: 10.4.27-MariaDB
+-- Waktu pembuatan: 07 Nov 2024 pada 17.10
+-- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -74,9 +74,7 @@ CREATE TABLE `tb_produk` (
 --
 
 INSERT INTO `tb_produk` (`id_produk`, `nama_produk`, `harga_produk`, `stok_produk`, `foto_produk`, `id_kategori`) VALUES
-(3, 'labubu', 100000, 2, 'labubu.jpg', 1),
-(5, 'ambalabu', 10000000, 2, 'ambalabu.jpg', 2),
-(9, 'labubu', 12345, 122, '1730779844labubu.jpg', 1);
+(3, 'boneka', 121, 21121, '1730995676sarapan.jpeg', 1);
 
 -- --------------------------------------------------------
 
@@ -152,7 +150,7 @@ ALTER TABLE `tb_pesenan`
 -- AUTO_INCREMENT untuk tabel `tb_produk`
 --
 ALTER TABLE `tb_produk`
-  MODIFY `id_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT untuk tabel `tb_user`
