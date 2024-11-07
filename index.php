@@ -73,5 +73,5 @@ $query = mysqli_query($koneksi, "select * from tb_produk");
     </div>
 
 </body>
-kakkgit 
+
 </html>
