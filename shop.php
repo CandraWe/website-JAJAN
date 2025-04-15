@@ -60,6 +60,15 @@ include("koneksi.php");
             margin-bottom: 15px;
         }
 
+        .btn-primary {
+            background-color: #ee4d2d;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .btn-primary:hover {
+            background-color: #d43f1d;
+        }
     </style>
 </head>
 
@@ -78,7 +87,7 @@ include("koneksi.php");
                 <div class="card-body">
                     <h5 class="card-title"><?= htmlspecialchars($data['nama_produk']) ?></h5>
                     <div class="card-price">Rp <?= number_format($data['harga_produk'], 0, ',', '.') ?></div>
-                    <a href="admin/product/detail.php?id_produk=<?= $data['id_produk'] ?>" class="btn tombol w-100">Detail</a>
+                    <a href="admin/product/detail.php?id_produk=<?= $data['id_produk'] ?>" class="btn btn-primary w-100">Detail</a>
                 </div>
             </div>
         <?php endwhile ?>
